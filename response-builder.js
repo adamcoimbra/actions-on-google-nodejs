@@ -242,6 +242,11 @@ class RichResponse {
     });
     return this;
   }
+  
+  addItem(item) {
+    this.items.push(item);
+    return this;
+  }
 
   /**
    * Adds a single suggestion or list of suggestions to list of items.
